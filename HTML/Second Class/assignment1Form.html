@@ -1,0 +1,104 @@
+<!-- main document type of the page -->
+<!DOCTYPE html>
+
+<!-- default html language to be english -->
+<html lang="en">
+
+    <!-- head of the page -->
+    <head>
+        <title>Assignment 1 Form</title>
+    </head>
+
+    <!-- body of the page -->
+    <body>
+
+    <!-- main article of the page -->
+        <article>
+
+            <!-- header of the page -->
+            <header>
+
+                <h1>Welcome to HR Services!</h1>
+                <h2>Application Form</h2>
+
+            </header>
+
+            <!-- main body of the page -->
+            <section>
+
+                <!-- form for new ID at an Organization -->
+                <form name = "newIDform">
+
+                    <!-- first name -->
+                    <div>
+                        <label for="firstName"> Employee First Name: </label>
+                        <input type = "text" id="firstName" name = "firstName" />
+                    </div>
+                    <br />
+
+                    <!-- last name -->
+                    <div>
+                        <label for="lastName"> Employee Last Name: </label>
+                        <input type = "text" id="lastName" name = "lastName" />
+                    </div>
+                    <br />
+
+                    <!-- employee id -->
+                    <div>
+                        <label for="idNumber"> Employee ID Number: </label>
+                        <input type = "text" id="idNumber" name = "idNumber" />
+                    </div>
+                    <br />
+
+                    <!-- phone number -->
+                    <div>
+                        <label for="phoneNumber"> Employee Phone Number: </label>
+                        <input type = "text" id="phoneNumber" name = "phoneNumber" />
+                    </div>
+                    <br />
+
+                    <!-- gender -->
+                    <div>
+                        <label for="gender"> Gender: </label>
+
+                        <div id ="gender">
+
+                            <!-- male -->
+                            <label for="male"> Male: </label>
+                            <input type = "radio" id="male" name = "gender" value = "Male" />
+
+                            <!-- female -->
+                            <label for="female"> Female: </label>
+                            <input type = "radio" id="female" name = "gender" value = "Female" />
+
+                        </div>
+
+                    </div>
+                    <br />
+
+                    <!-- submit button -->
+                    <div>
+                        <button type="submit" id ="submit">
+                            <span> Submit</span>
+                        </button>
+
+
+                    <!-- reset/cancel button -->
+
+                        <button type="reset" id ="reset">
+                            <span> Cancel </span>
+                        </button>
+                    </div>
+
+
+                </form>
+            </section>
+
+            <!-- footer of the page -->
+            <footer>
+                <p> If you have any questions, please contact HR Department </p>
+            </footer>
+
+        </article>
+    </body>
+</html>
