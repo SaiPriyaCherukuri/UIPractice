@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <!-- head of the page -->
+    <head>
+        <!-- title of the web page-->
+        <title>Employee Application Form</title>
+
+        <!-- CSS style of the web page-->
+        <!-- this is internal css -->
+        <style>
+
+            body {
+                background-color: #eeeeee;
+            }
+        </style>
+
+        <!-- links associated with the web page-->
+        <!-- this is external css -->
+        <link rel="stylesheet" href="styles.css"/>
+
+
+
+        <!-- metadata of the web page-->
+        <meta name="description" content="This is the application form for getting credentials in an organization"/>
+        <meta name="keywords" content="application, credentials, IDForm, form"/>
+        <meta charset="UTF-8"/>
+
+        <!-- meta tag for making the webpage responsive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    </head>
+
+    <!-- body of the page -->
+    <!-- this is attribute/inline css -->
+    <body style="background-color: #eeeeee;">
+
+    <!-- main article of the page -->
+        <article>
+
+            <!-- header of the page -->
+            <header>
+
+                <h1>Welcome to HR Services!</h1>
+                <h2>Application Form</h2>
+
+            </header>
+
+            <!-- main body of the page -->
+            <section>
+
+                <!-- form for new ID at an Organization -->
+                <form name = "newIDform">
+
+                    <!-- first name -->
+                    <div>
+                        <label for="firstName"> Employee First Name: </label>
+                        <input type = "text" id="firstName" name = "firstName" />
+                    </div>
+                    <br />
+
+                    <!-- last name -->
+                    <div>
+                        <label for="lastName"> Employee Last Name: </label>
+                        <input type = "text" id="lastName" name = "lastName" />
+                    </div>
+                    <br />
+
+                    <!-- employee id -->
+                    <div>
+                        <label for="idNumber"> Employee ID Number: </label>
+                        <input type = "text" id="idNumber" name = "idNumber" />
+                    </div>
+                    <br />
+
+                    <!-- phone number -->
+                    <div>
+                        <label for="phoneNumber"> Employee Phone Number: </label>
+                        <input type = "text" id="phoneNumber" name = "phoneNumber" />
+                    </div>
+                    <br />
+
+                    <!-- gender -->
+                    <div>
+                        <label for="gender"> Gender: </label>
+
+                        <div id ="gender">
+
+                            <!-- male -->
+                            <label for="male"> Male: </label>
+                            <input type = "radio" id="male" name = "gender" value = "Male" />
+
+                            <!-- female -->
+                            <label for="female"> Female: </label>
+                            <input type = "radio" id="female" name = "gender" value = "Female" />
+
+                        </div>
+
+                    </div>
+                    <br />
+
+                    <!-- email -->
+                    <div>
+                        <label for="email"> Employee Email: </label>
+                        <input type = "email" id="email" name = "email" />
+                    </div>
+                    <br />
+
+                    <!-- username -->
+                    <div>
+                        <label for="userName"> Employee User Name: </label>
+                        <input type = "text" id="userName" name = "userName" />
+                    </div>
+                    <br />
+
+                    <!-- password -->
+                    <div>
+                        <label for="password"> Employee Password: </label>
+                        <input type = "password" id="password" name = "password" />
+                        <p> * Please have at least one alphabet, one number and one special character in your password</p>
+                    </div>
+                    <br />
+
+                    <!-- declaration and agreement -->
+                    <div>
+                        <input type="checkbox" id="agreement" name="agreement" />
+                         I declare that the above information is correct to the best of my knowledge and agree to the terms and policies of the Organization
+                    </div>
+                    <br />
+
+                    <!-- submit button -->
+                    <div>
+                        <button type="submit" id ="submit">
+                            <span> Submit </span>
+                        </button>
+
+
+                    <!-- reset/cancel button -->
+
+                        <button type="reset" id ="reset">
+                            <span> Cancel </span>
+                        </button>
+                    </div>
+
+
+                </form>
+            </section>
+
+            <!-- footer of the page -->
+            <footer>
+                <p> If you have any questions, please contact HR Department </p>
+            </footer>
+
+        </article>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+body {
+    background-color: #eee;
+}
+form {
+    margin: 10px;
+    border: 2px solid #0508fc;
+    padding: 10px;
+}
+label, input{
+    display:block;
+}
+ #agreement {
+    display: inline;
+}
+#submit{
+    background-color: #3f9612;
+    color: #fff;
+    height: 25px;
+    display: block;
+}
+#reset{
+    background-color: #ff0000;
+    color: #fff;
+    height: 25px;
+}
