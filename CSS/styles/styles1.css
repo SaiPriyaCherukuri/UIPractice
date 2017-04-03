@@ -1,0 +1,47 @@
+ul{
+    border: 2px solid #ddd;
+    background: #ddd;
+    padding: 10px 30px 30px;
+}
+li{
+    display: inline;
+    padding: 0px 20px;
+    float: right;
+}
+header{
+    text-align: center;
+}
+form {
+    border: 2px solid #06311e;
+    margin: auto;
+    width: 65%;
+    padding: 20px;
+}
+label{
+    display:block;
+    padding-top: 10px;
+}
+/*input{
+    display: inline;
+}*/
+ input[type="checkbox"] {
+    display: inline;
+}
+button{
+     display: inline;
+}
+button[type="submit"]{
+    background-color: #3f9612;
+    color: #fff;
+    height: 30px;
+    border: 2px solid #3f9612;
+    border-radius: 5px;
+    margin: 10px;
+}
+button[type="reset"]{
+    background-color: #ff0000;
+    color: #fff;
+    height: 30px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+}
