@@ -1,3 +1,9 @@
+header
+/*nav{
+    position: fixed;
+    top: 0px;
+    right: 80px;
+}*/
 ul{
     border: 2px solid #ddd;
     background: #ddd;
